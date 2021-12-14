@@ -1,14 +1,19 @@
 <template>
   <view class="list">
     <view wx:for="{{listData}}" wx:key="index">{{item}}</view>
+    <button class="flex bg-red w-1-div-4"></button>
   </view>
 </template>
-
 <script lang="ts" src="./list.ts"></script>
 
-<style lang="stylus">
-  .list
-    background-color red
+<style lang="scss">
+// @import "tailwindcss/tailwind.css";
+  // @import "tailwindcss/utilities";
+  // @tailwind utilities;
+  .list {
+    background-color:red;
+    font-size:(200px/10);
+  }
 </style>
 
 <script type="application/json">

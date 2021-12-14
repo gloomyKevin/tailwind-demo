@@ -1,7 +1,8 @@
 <script lang="ts" src="./app.ts"></script>
 
-<style>
+<style lang="scss">
   /*此处编写全局样式*/
+  @import "tailwindcss/utilities";
 </style>
 
 <script type="application/json">

@@ -50,9 +50,9 @@ module.exports = function getRules (options) {
     rules.push(tsRule)
   }
 
-  if (needEslint) {
-    rules.push(eslintRule)
-  }
+  // if (needEslint) {
+  //   rules.push(eslintRule)
+  // }
 
   if (plugin) {
     rules.push({
