@@ -1,0 +1,6 @@
+
+.list {
+  border: 10px solid;
+  background-color: red;
+  font-size: 40px;
+}

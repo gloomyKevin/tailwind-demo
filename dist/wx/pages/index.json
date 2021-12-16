@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "list": "/components/lista0e384f2/list"
+    "list": "/components/lista0e384f2/list",
+    "testBtn": "/components/listc3018bdc/list"
   }
 }

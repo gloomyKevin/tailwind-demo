@@ -1,13 +1,31 @@
 <template>
   <list></list>
+  <testBtn></testBtn>
+  <view class="bg-blue-700 bg-opacity-50 native-class">
+    page-title
+  </view>
+  <view class="pt-8 text-base leading-7 font-semibold">
+    <view class="text-gray-900">page-subtitle</view>
+    <view>
+      <view href="https://tailwindcss.com/docs" class="text-sky-500">page-link</view>
+    </view>
+  </view>
 </template>
 
 <script lang="ts" src="./index.ts"></script>
 
+<style>
+  .bg-blue-800 {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(30 64 175 / var(--tw-bg-opacity)) !important;
+  }
+</style>
+
 <script type="application/json">
   {
     "usingComponents": {
-      "list": "../components/list"
+      "list": "../components/list",
+      "testBtn": "../components/testBtn/list"
     }
   }
 </script>

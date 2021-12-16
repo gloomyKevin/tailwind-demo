@@ -1,3 +1,5 @@
+const MpxWebpackPlugin = require('@mpxjs/webpack-plugin')
+
 module.exports = {
   performance: {
     hints: false

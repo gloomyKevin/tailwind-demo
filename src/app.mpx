@@ -1,14 +1,23 @@
 <script lang="ts" src="./app.ts"></script>
+<script>
+  // import * as tail from 'tailwindcss';
+</script>
 
+<!-- <style lang="scss">
+@import "tailwindcss/utilities";
+  .list {
+    @if 1 + 1 == 2 { border: 10pxsolid; }
+    background-color:red;
+    font-size:20px+20px;
+    }
+</style> -->
 <style>
-  /*此处编写全局样式*/
+@import './main.wxss';
 </style>
 
 <script type="application/json">
   {
-    "pages": [
-      "./pages/index"
-    ]
+    "pages": ["./pages/index.mpx"]
   }
 </script>
 
